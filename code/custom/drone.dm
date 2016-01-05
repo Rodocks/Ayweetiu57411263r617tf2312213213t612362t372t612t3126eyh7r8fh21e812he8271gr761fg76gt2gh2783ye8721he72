@@ -1,7 +1,7 @@
 ////////////////////
 //Drones with custom laws. Bit more fun to be, will leave around on map/make a way to construct
 //DRONE TIDE STATION WIDE
-
+//Anus hahaha xd fam
 //More types of drones
 /mob/living/simple_animal/drone/prank
 	name = "drone"
