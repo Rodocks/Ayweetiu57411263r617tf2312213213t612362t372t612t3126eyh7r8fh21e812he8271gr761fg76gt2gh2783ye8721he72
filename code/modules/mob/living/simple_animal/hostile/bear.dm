@@ -51,6 +51,17 @@
 /mob/living/simple_animal/hostile/bear/Process_Spacemove(movement_dir = 0)
 	return 1	//No drifting in space for space bears!
 
+/mob/living/simple_animal/hostile/bear/snow
+	name = "space polar bear"
+	icon_state = "snowbear"
+	icon_living = "snowbear"
+	icon_dead = "snowbear_dead"
+	desc = "It's a polar bear, in space, but not actually in space. "
+
+/mob/living/simple_animal/hostile/bear/Process_Spacemove(movement_dir = 0)
+	return 1	//No drifting in space for space bears!
+
+
 
 
 

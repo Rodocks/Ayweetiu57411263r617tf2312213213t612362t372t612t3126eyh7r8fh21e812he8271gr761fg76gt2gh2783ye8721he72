@@ -18,6 +18,7 @@
  *		Beach ball
  *		Toy xeno
  *      Kitty toys!
+ *      Snow Ballz XD BALLS
  */
 
 
@@ -1169,6 +1170,26 @@
 
 	else
 		user << "<span class='alert'>Nothing happens.</span>"
+
+/*
+ * Snowballs
+ */
+
+/obj/item/toy/snowball
+	name = "snowball"
+	desc = "A compact ball of snow. Good for throwing at people."
+	icon = 'icons/obj/toy.dmi'
+	icon_state = "snowball"
+	throwforce = 12 //pelt your enemies to death with lumps of snow
+
+/obj/item/toy/snowball/afterattack(atom/target as mob|obj|turf|area, mob/user)
+	user.drop_item()
+	src.throw_at(target, throw_range, throw_speed)
+
+/obj/item/toy/snowball/throw_impact(atom/hit_atom)
+	if(!..())
+		playsound(src, 'sound/effects/pop.ogg', 20, 1)
+		qdel(src)
 
 /*
  * Beach ball

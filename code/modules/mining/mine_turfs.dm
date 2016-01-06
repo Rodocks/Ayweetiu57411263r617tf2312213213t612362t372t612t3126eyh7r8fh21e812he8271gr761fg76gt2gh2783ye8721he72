@@ -515,6 +515,16 @@ var/global/list/rockTurfEdgeCache
 	nitrogen = 0.01
 	temperature = TCMB
 
+/turf/simulated/floor/plating/asteroid/snow
+	name = "snow"
+	desc = "Looks cold."
+	icon = 'icons/turf/snow.dmi'
+	baseturf = /turf/simulated/floor/plating/asteroid/snow
+	icon_state = "snow"
+	icon_plating = "snow"
+	temperature = 180
+	slowdown = 2
+
 /turf/simulated/floor/plating/asteroid/New()
 	var/proper_name = name
 	..()

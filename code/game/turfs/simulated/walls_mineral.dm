@@ -164,3 +164,14 @@
 	hardness = 70
 	explosion_block = 0
 	canSmoothWith = list(/turf/simulated/wall/mineral/wood, /obj/structure/falsewall/wood)
+
+/turf/simulated/wall/mineral/snow
+	name = "packed snow wall"
+	desc = "A wall made of densely packed snow blocks."
+	icon = 'icons/turf/walls/snow_wall.dmi'
+	icon_state = "snow"
+	walltype = "snow"
+	mineral = "snow"
+	hardness = 80
+	sheet_type = /obj/item/stack/sheet/mineral/snow
+	canSmoothWith = null
