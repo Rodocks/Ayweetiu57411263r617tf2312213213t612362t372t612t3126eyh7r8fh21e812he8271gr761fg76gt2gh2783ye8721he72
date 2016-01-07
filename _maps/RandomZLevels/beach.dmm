@@ -37,7 +37,7 @@
 "aK" = (/obj/structure/table/wood,/turf/simulated/floor/wood,/area/awaymission/beach)
 "aL" = (/obj/machinery/processor,/turf/simulated/floor/wood,/area/awaymission/beach)
 "aM" = (/turf/simulated/floor/plating/beach/sand,/obj/machinery/vending/cola,/turf/simulated/floor/plasteel/sandeffect,/area/awaymission/beach)
-"aN" = (/turf/simulated/floor/plating/beach/sand,/obj/structure/stool/bed,/turf/simulated/floor/plasteel/sandeffect,/area/awaymission/beach)
+"aN" = (/turf/simulated/floor/plating/beach/sand,/obj/structure/stool/barstool,/turf/simulated/floor/plasteel/sandeffect,/area/awaymission/beach)
 "aO" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/simulated/floor/wood,/area/awaymission/beach)
 "aP" = (/turf/simulated/floor/plating/beach/sand,/obj/machinery/vending/snack,/turf/simulated/floor/plasteel/sandeffect,/area/awaymission/beach)
 "aQ" = (/obj/effect/overlay/palmtree_r,/turf/simulated/floor/plating/beach/sand,/area/space)
